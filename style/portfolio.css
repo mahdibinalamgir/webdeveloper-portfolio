@@ -1,16 +1,15 @@
 /* common shared style */
-body{
-    // <uniquifier>: Use a unique and descriptive class name
+/* // <uniquifier>: Use a unique and descriptive class name */
 
-    .open-sans-<uniquifier> {
-      font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 800;
-      font-style: normal;
-      font-variation-settings:
-        "wdth" 100;
-    }
-   
+/* .open-sans-<uniquifier>  */
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 .text-primary{
     color:#FD6E0A ;
@@ -24,6 +23,13 @@ font-weight: 700;
 color: white;
 font-weight: 700px;
 padding: 15px 35px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    /* font-family: "Open Sans"; */
+    font-size: 35px;
+    font-weight: 700;
 }
 /* nav related styles */
 nav{
@@ -55,12 +61,42 @@ nav a{
 /* header related style  */
 .header{
     background-color:#FFF8F3 ;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-pic{
 width: 500px;
 }
+.banner-greeting{
+    font-size: 45px;
+    color: var(--Dark-02, #474747);
+}
+.banner-title{
+    font-size: 85px;
+font-weight: 700;
+font-family: "Open Sans";
+margin-top: 5px;
+}
+.banner-description{
+
+}
+/* main section styles */
+ 
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 
+}
+section-title
