@@ -165,5 +165,22 @@ margin: 30px ;
 }
 /* footer style */
 footer{
-    dis
+    display: flex;
+    background: #FFF8F3;
+    margin: 100px;
+    padding:130px;
 }
+.footer-column{
+    width: 50%;
+}
+.content input [type="text"], .content input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 180px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+}
+
