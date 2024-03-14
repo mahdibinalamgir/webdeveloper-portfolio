@@ -1,12 +1,10 @@
 /* common shared style */
-/* // <uniquifier>: Use a unique and descriptive class name */
 
-/* .open-sans-<uniquifier>  */
 
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -110,9 +108,10 @@ main{
 .about-info-container{
     display: flex;
     justify-content:space-around ;
+    gap: 10px;
 }
 .about-inf{
-    text-align:center ;
+    /* text-align:center ; */
 }
 /* skills realated style */
 
@@ -169,19 +168,23 @@ footer{
     display: flex;
     background: #FFF8F3;
     margin: 100px;
-    padding:130px;
+    padding:130px 200px;
 }
 .footer-column{
     width: 50%;
 }
-.content input [type="text"], .content input[type="email"], textarea{
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], 
+.contact input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
-    padding: 180px 35px;
-    color: #757575;
-    border-radius: 5px;
-    background:  #FFF;
-    border: 0;
-    width: 100%;
+    padding: 18px 35px;
+   color:#757575 ;
+   border-radius: 5px;
+background: #FFF;
+border: 0;
+width: 100%;
 }
 
